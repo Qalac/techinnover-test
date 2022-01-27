@@ -1,6 +1,6 @@
 from Rover.rover import Rover
 from Plateau.plateau import Plateau
-from middleware.middleware import roverIsWithinPerimeter, isValidMovement, roverIsWithinPerimeter_x, isValidMovement_x
+from middleware.middleware import *
 
 plateau_dim = input("Enter the upper-right co-ordinates of the rectangular plateau in order X Y: \n").upper().replace(" ","")
 
