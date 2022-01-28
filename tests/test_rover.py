@@ -6,7 +6,7 @@ class TestRover(unittest.TestCase):
     def setUp(self):
         self.rover = Rover(1, 2, "N")
 
-    def test_rover_created(self):
+    def test_rover_creation(self):
         self.assertEqual(self.rover.x_pos, 1)
         self.assertEqual(self.rover.y_pos, 2)
         self.assertEqual(self.rover.dir, "N")
